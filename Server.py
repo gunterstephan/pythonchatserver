@@ -2,7 +2,7 @@ import socket
 import threading
 
 HEADER = 64
-PORT = 5050
+PORT = 80
 FORMAT= "utf-8"
 DISCONNECT= "!DISCONNECT"
 SERVER = socket.gethostbyname(socket.gethostname())
